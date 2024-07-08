@@ -1,0 +1,348 @@
+*{
+    border: 0px;
+    padding: 0px;
+}
+
+
+
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100; 
+}
+
+.nav-title {
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.text-primary{
+    color:#FD6E0A;
+}
+.btn-primary{
+    color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 5px;
+cursor: pointer;
+background: rgb(253, 110, 10);
+border: none;
+padding: 15px 35px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+
+    align-items: centers;
+
+}
+nav ul li {
+    list-style: none;
+    color:rgb(71, 71, 71);
+    margin-right: 50px;
+    margin-top:68px;
+
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    /* margin: o 35px 0 200px; */
+    margin-right: 110px;
+}
+.banner-content{
+    /* max-width: 600px; */
+    margin-left: 230px;
+    /* margin-top: 0px;
+    margin-bottom: 100px; */
+}
+header{
+    background-image:url("../images/developer.png"), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    background-color: rgb(255, 248, 243);
+}
+.nav-title{
+    margin-left: 230px;
+}
+.banner-greetings-dark-2{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 40px;
+font-weight: 600;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-title{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 70px;
+font-weight: 700;
+line-height: 116px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-description{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.dark-2{
+    
+}
+nav ul li button{
+    margin-top: -100px;
+}
+
+
+/* 1st page done */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;  
+    border-radius: 10px;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+    
+}
+.about-secondary-bg{
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(255, 248, 243);
+}
+.section-title{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.section-description{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+.about-items{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+.item-title{
+    color: rgb(117, 117, 117);
+}
+.item-description{
+    color: rgb(71, 71, 71);
+}
+
+
+
+
+
+.section-title-text-center{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.section-description-text-center{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+.skills-container{
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    width: 267px;
+    height: 490px;
+    display: flex;
+    
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+.cv-heading{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.edu-title{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0%;
+text-align: left;
+}
+.institute{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 25px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0%;
+text-align: left;
+}
+.ssc-school{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+}
+.ssc-description{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+
+
+
+
+
+
+.summary{
+    display: flex;
+}
+.education{
+    border-bottom: 1px solid black;
+    margin: 50px;
+}
+.ssc-description{
+    rgb(117, 117, 117)
+}
+.edu-title{
+    margin-bottom:60px;
+}
+
+
+.first-line{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.second-line{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.left-half{
+    
+}
+.last-page{
+    background: rgb(255, 248, 243);
+position: absolute;
+width: 1600px;
+height: 780px;
+left: 0;
+right: 0;
+top: 3476px;
+bottom: 0;
+}
+.first-line{
+    padding-top: 50px;
+}
+.full-last-page{
+    display: flex;
+    justify-content: space-around;
+}
+.right-half{
+    padding-top: 50px;
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+div input{
+    margin-bottom: 50px;
+    padding: 22px 349px 22px 30px;
+}
+form textarea{
+    padding: 18px 365px 134px 30px;
+}
+.icon-img{
+    margin-right: 10px;
+}
