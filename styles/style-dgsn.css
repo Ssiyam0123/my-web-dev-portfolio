@@ -44,7 +44,7 @@ header {
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     background-color: rgb(255, 248, 243);
-    padding: 20px 0 80px 0;
+    padding: 20px 0 0 0;
 }
 
 nav {
@@ -87,7 +87,7 @@ nav ul li a:hover {
     width: 90%;
     margin: 60px auto 0 auto;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     gap: 40px;
 }
@@ -95,6 +95,7 @@ nav ul li a:hover {
 .banner-content {
     flex: 1;
     max-width: 600px;
+    margin-bottom: 50px;
 }
 
 .banner-greetings-dark-2 {
@@ -124,6 +125,7 @@ nav ul li a:hover {
     max-width: 450px;
     width: 100%;
     height: auto;
+    display: block;
 }
 
 /* Main Layout */
